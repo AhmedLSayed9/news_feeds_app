@@ -1,0 +1,78 @@
+name: news_feeds_app
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  logging: ^1.2.0
+
+  # StateManagement & DI
+  hooks_riverpod: ^2.3.6
+  riverpod_annotation: ^2.1.1
+  flutter_hooks: ^0.18.6
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.1
+
+  # FP
+  fpdart: ^1.0.0-beta.1
+  rxdart: ^0.27.7
+
+  # Connectivity
+  connectivity_plus: ^4.0.1
+
+  # Routing
+  go_router: ^10.1.0
+
+  # Apis
+  dio: ^5.1.2
+
+  # LocalStorage
+  shared_preferences: ^2.1.1
+  flutter_cache_manager: ^3.3.0
+
+  # Images
+  cached_network_image: ^3.2.3
+
+  # Utils
+  mocktail: ^0.3.0
+  device_info_plus: ^9.0.3
+  fast_immutable_collections: ^9.1.5
+  flutter_fadein: ^2.0.0
+
+  # Widgets
+  flutter_platform_widgets: ^4.0.0-beta.3
+  fluttertoast: ^8.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.1
+  import_sorter: ^4.6.0
+
+  # Lints
+  very_good_analysis: ^5.0.0+1
+  custom_lint: ^0.4.0
+  riverpod_lint: ^1.3.2
+
+  # Code gen
+  build_runner: ^2.4.5
+  riverpod_generator: ^2.2.3
+  freezed: ^2.3.5
+  json_serializable: ^6.7.0
+  go_router_builder: ^2.3.0
+
+import_sorter:
+  comments: false
+
+flutter:
+  uses-material-design: true
