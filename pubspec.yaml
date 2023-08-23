@@ -76,3 +76,17 @@ import_sorter:
 
 flutter:
   uses-material-design: true
+
+  generate: true # Enable generation for localizations
+
+  assets:
+    - assets/icons/
+    - assets/icons/languages_icons/
+    - assets/images/core/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
