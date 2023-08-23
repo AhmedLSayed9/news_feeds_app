@@ -1,11 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../../../core/core_features/theme/presentation/utils/custom_colors.dart';
-import '../../../../core/presentation/styles/styles.dart';
-import '../../../../core/presentation/widgets/custom_shimmer.dart';
-import '../../../../core/presentation/widgets/seperated_sliver_child_builder_delegate.dart';
-import '../../domain/article.dart';
-import 'article_item.dart';
+part of 'articles_components.dart';
 
 class ArticlesList extends StatelessWidget {
   const ArticlesList({
@@ -42,7 +35,12 @@ class ArticlesList extends StatelessWidget {
                     borderRadius: cardDecoration(context).borderRadius,
                     child: ArticleItem(article: articles.items[index]),
                   )
-                : ArticleItem(article: articles.items[index]);
+                : GestureDetector(
+                    onTap: () {
+                      ArticleDetailsRoute(index).go(context);
+                    },
+                    child: ArticleItem(article: articles.items[index]),
+                  );
           },
           separatorBuilder: (context, index) {
             return const SizedBox(height: Sizes.marginV20);

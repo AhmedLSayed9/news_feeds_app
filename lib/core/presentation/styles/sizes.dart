@@ -48,6 +48,7 @@ abstract class Sizes {
   static const double paddingH20 = 20;
 
   // Button
+  static const double buttonPaddingV16 = 16;
   static const double buttonPaddingV8 = 8;
   static const double buttonPaddingH96 = 96;
   static const double buttonR10 = 10;

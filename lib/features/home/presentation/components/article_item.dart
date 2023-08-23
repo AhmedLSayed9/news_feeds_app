@@ -1,13 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../../../core/core_features/theme/presentation/utils/custom_colors.dart';
-import '../../../../core/presentation/helpers/date_helper.dart';
-import '../../../../core/presentation/helpers/localization_helper.dart';
-import '../../../../core/presentation/styles/styles.dart';
-import '../../../../core/presentation/widgets/cached_network_image_rounded.dart';
-import '../../../../core/presentation/widgets/responsive_widgets/responsive_center.dart';
-import '../../domain/article.dart';
-import 'articles_list.dart';
+part of 'articles_components.dart';
 
 class ArticleItem extends StatelessWidget {
   const ArticleItem({
@@ -17,9 +8,9 @@ class ArticleItem extends StatelessWidget {
 
   final Article article;
 
-  static const _mediumVGap = SizedBox(height: Sizes.marginV12);
+  static const mediumVGap = SizedBox(height: Sizes.marginV12);
 
-  static const _smallVGap = SizedBox(height: Sizes.marginV4);
+  static const smallVGap = SizedBox(height: Sizes.marginV4);
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +27,7 @@ class ArticleItem extends StatelessWidget {
               ),
               height: 200,
             ),
-            _mediumVGap,
+            mediumVGap,
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: Sizes.paddingH20),
               child: Column(
@@ -50,17 +41,17 @@ class ArticleItem extends StatelessWidget {
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
-                  _smallVGap,
+                  smallVGap,
                   Text(
                     tr(context).byAuthor(article.author),
                     style: TextStyles.f16(context).copyWith(
                       color: customColors(context).greyColor,
                       fontWeight: FontStyles.fontWeightNormal,
                     ),
-                    maxLines: 3,
+                    maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
-                  _smallVGap,
+                  smallVGap,
                   Align(
                     alignment: AlignmentDirectional.centerEnd,
                     child: Text(
@@ -76,7 +67,7 @@ class ArticleItem extends StatelessWidget {
                 ],
               ),
             ),
-            _mediumVGap,
+            mediumVGap,
           ],
         ),
       ),

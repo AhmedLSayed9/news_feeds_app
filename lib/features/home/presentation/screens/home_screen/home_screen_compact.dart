@@ -12,7 +12,7 @@ import '../../../../../core/presentation/widgets/platform_widgets/platform_refre
 import '../../../../../core/presentation/widgets/toasts.dart';
 import '../../../../../gen/my_assets.dart';
 import '../../../domain/article.dart';
-import '../../components/articles_list.dart';
+import '../../components/articles_components.dart';
 import '../../providers/articles_provider.dart';
 
 class HomeScreenCompact extends ConsumerWidget {

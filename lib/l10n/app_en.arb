@@ -64,5 +64,6 @@
         "type": "String"
       }
     }
-  }
+  },
+  "openWebsite": "Open website"
 }
