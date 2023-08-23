@@ -4,7 +4,7 @@ class AppColorsDark implements AppColors {
   @override
   Color get primaryColor => const Color(0xff212327);
   @override
-  Color get primary => const Color(0xFF51A7DD);
+  Color get primary => const Color(0xFF4aa3f6);
   @override
   Color get secondary => const Color(0xFF213871);
 

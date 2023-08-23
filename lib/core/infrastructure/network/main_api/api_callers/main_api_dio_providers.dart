@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:logging/logging.dart';
 
-import '../../../logger.dart';
+import '../../../services/logger.dart';
 import '../../../../presentation/utils/riverpod_framework.dart';
 import '../../main_api/main_api_config.dart';
 import '../interceptors/api_key_interceptor.dart';

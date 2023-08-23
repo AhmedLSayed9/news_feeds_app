@@ -17,7 +17,7 @@ class ErrorScreenCompact extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.symmetric(
                 vertical: Sizes.screenPaddingV16,
-                horizontal: Sizes.screenPaddingH28,
+                horizontal: Sizes.screenPaddingH24,
               ),
               child: RouteErrorComponent(),
             ),

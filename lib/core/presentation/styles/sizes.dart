@@ -28,13 +28,17 @@ abstract class Sizes {
   static const double icon24 = 24;
 
   // Screen Padding
+  static const double screenPaddingV24 = 24;
   static const double screenPaddingV16 = 16;
-  static const double screenPaddingH28 = 28;
+  static const double screenPaddingH24 = 24;
   static const double screenPaddingH16 = 16;
 
   // Widget Margin
   static const double marginV28 = 28;
   static const double marginV20 = 20;
+  static const double marginV16 = 16;
+  static const double marginV12 = 12;
+  static const double marginV4 = 4;
   static const double marginH28 = 28;
   static const double marginH20 = 20;
   static const double marginH12 = 12;

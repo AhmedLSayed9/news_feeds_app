@@ -11,7 +11,7 @@ class Article with _$Article {
     required String description,
     required String url,
     required String image,
-    required String publishDate,
+    required DateTime publishDate,
   }) = _Article;
 }
 
@@ -20,4 +20,17 @@ class Articles with _$Articles {
   const factory Articles({
     required IList<Article> items,
   }) = _Articles;
+
+  factory Articles.emptyArticles() => Articles(
+        items: List.generate(6, (index) => _emptyArticle).toIList(),
+      );
+
+  static Article get _emptyArticle => Article(
+        author: 'author',
+        title: 'title\n',
+        description: 'description',
+        url: 'url',
+        image: 'image',
+        publishDate: DateTime.now(),
+      );
 }

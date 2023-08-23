@@ -55,5 +55,14 @@
   "english": "English",
   "arabic": "Arabic",
   "@_HOME": {},
-  "linkDevelopment": "Link Development"
+  "linkDevelopment": "Link Development",
+  "noArticlesFound": "No Articles Found.",
+  "byAuthor": "By {author}",
+  "@byAuthor": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      }
+    }
+  }
 }

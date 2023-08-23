@@ -15,7 +15,7 @@ class ArticleDto with _$ArticleDto {
     required String description,
     required String url,
     @JsonKey(name: 'urlToImage') required String image,
-    @JsonKey(name: 'publishedAt') required String publishDate,
+    @JsonKey(name: 'publishedAt') required DateTime publishDate,
   }) = _ArticleDto;
 
   const ArticleDto._();
