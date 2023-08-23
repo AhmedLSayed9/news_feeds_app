@@ -53,5 +53,7 @@
   "error_503": "Service not available",
   "error_occurred": "Unexpected error occurred!",
   "english": "English",
-  "arabic": "Arabic"
+  "arabic": "Arabic",
+  "@_HOME": {},
+  "linkDevelopment": "Link Development"
 }

@@ -16,10 +16,10 @@ Future<void> splashServicesWarmup(SplashServicesWarmupRef ref) async {
 
 @riverpod
 Future<String> splashTarget(SplashTargetRef ref) async {
-  return const SplashRoute().location;
+  return const HomeRoute().location;
   /* final hasConnection = await ref.watch(networkInfoProvider).hasInternetConnection;
   if (hasConnection) {
-    return const SignInRoute().location;
+    return const HomeRoute().location;
   } else {
     return const NoInternetRoute().location;
   } */

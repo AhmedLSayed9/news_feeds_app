@@ -57,6 +57,9 @@ abstract class Sizes {
   static const double dialogPaddingH24 = 24;
 
   // Home
+  static const double appBarHeight60 = 60;
+  static const double appBarLeadingWidth = 68;
+  static const double appBarButtonR32 = 32;
   static const double appBarElevation = 0;
   static const double navBarElevation = 2;
 }

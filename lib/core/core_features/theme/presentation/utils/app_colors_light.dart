@@ -15,7 +15,7 @@ class AppColorsLight implements AppColors {
   @override
   Color get olderAndroidSystemNavBarColor => scaffoldBGColor;
   @override
-  Color get appBarBGColor => scaffoldBGColor.withOpacity(0.60);
+  Color get appBarBGColor => const Color(0xFF141414);
   @override
   Color get scaffoldBGColor => const Color(0xFFD9D9D9);
   @override

@@ -12,6 +12,9 @@ class MyAssets {
   static const String ASSETS_ICONS_LANGUAGES_ICONS_ENGLISH_PNG =
       'assets/icons/languages_icons/english.png';
 
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/search.png)
+  static const String ASSETS_ICONS_SEARCH_PNG = 'assets/icons/search.png';
+
   /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/images/core/loading.gif)
   static const String ASSETS_IMAGES_CORE_LOADING_GIF =
       'assets/images/core/loading.gif';
@@ -23,6 +26,10 @@ class MyAssets {
   /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/images/core/no_internet.jpg)
   static const String ASSETS_IMAGES_CORE_NO_INTERNET_JPG =
       'assets/images/core/no_internet.jpg';
+
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/images/core/placeholder.png)
+  static const String ASSETS_IMAGES_CORE_PLACEHOLDER_PNG =
+      'assets/images/core/placeholder.png';
 
   /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/images/core/splash_icon.png)
   static const String ASSETS_IMAGES_CORE_SPLASH_ICON_PNG =

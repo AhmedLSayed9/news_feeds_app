@@ -17,7 +17,7 @@ class AppColorsDark implements AppColors {
   @override
   Color get appBarBGColor => scaffoldBGColor.withOpacity(0.60);
   @override
-  Color get scaffoldBGColor => const Color(0xFF303030);
+  Color get scaffoldBGColor => const Color(0xFFD9D9D9);
   @override
   Color get navBarColor => secondary;
   @override

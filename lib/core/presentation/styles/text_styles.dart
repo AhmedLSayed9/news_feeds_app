@@ -37,6 +37,11 @@ abstract class TextStyles {
   static TextStyle inputDecorationError(Color color) =>
       TextStyle(color: color, fontSize: Sizes.font12);
 
+  static TextStyle appBarTitle(BuildContext context) => f20(context).copyWith(
+        color: AppStaticColors.white,
+        fontWeight: FontStyles.fontWeightSemiBold,
+      );
+
   static TextStyle navigationLabel(Color color) => TextStyle(
         color: color,
         fontSize: Sizes.font12,

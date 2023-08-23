@@ -9,5 +9,5 @@ class HomeRoute extends GoRouteData {
 
   @override
   Page<void> buildPage(BuildContext context, GoRouterState state) =>
-      FadeTransitionPage(state.pageKey, const Scaffold());
+      FadeTransitionPage(state.pageKey, const HomeScreen());
 }
