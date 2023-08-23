@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "author": "Ioanna Lykiardopoulou",
+      "title": "Rapid delivery giant Getir quits France, citing regulation hurdles",
+      "description": "Quick commerce platform Getir is bidding adieu to the French market — less than two years since starting its operations in the country.\r\n\r\nIn a press release sent to AFP, the company ...",
+      "url": "http://thenextweb.com/news/quick-delivery-giant-getir-quits-france",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2023%2F06%2FUntitled-design-3-11.jpg&signature=01a135e05b853a78b83268994e4f2cbf",
+      "publishedAt": "2023-06-22T11:21:08Z"
+    },
+    {
+      "author": "Siôn Geschwindt",
+      "title": "Mobility giant Bolt adopts self-driving Starship robots for food delivery",
+      "description": "Bolt plans to roll out thousands of the robots across multiple countries, starting in its home city of Tallinn later this year.",
+      "url": "http://thenextweb.com/news/mobility-giant-bolt-adopts-self-driving-starship-robots-for-food-delivery",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2023%2F06%2Fbolt-starship-robot-delivery.jpg&signature=c902ce701ce95e20f6fd703a50ad52ca",
+      "publishedAt": "2023-06-22T09:17:15Z"
+    }
+  ]
+}

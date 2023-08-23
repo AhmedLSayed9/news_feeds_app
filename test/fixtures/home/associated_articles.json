@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "author": "ALI SWENSON and AYANNA ALEXANDER",
+      "title": "How Trump's attacks on prosecutors build on history of using racist language and stereotypes",
+      "description": "NEW YORK (AP) — Donald Trump’s aggressive response to his fourth criminal indictment in five months follows a strategy he has long used against legal and political opponents: relentless attacks, often infused with language that is either overtly racist or is coded in ways that appeal to racists.",
+      "url": "https://apnews.com/04b69a8f3e4873eadb03c132cdee09c8",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/6787c9a3d4e14b0b93a45214a1bca919/3000.jpeg",
+      "publishedAt": "2023-08-22T04:05:06Z"
+    },
+    {
+      "author": "MARK J. TERRILL, JOHN ANTCZAK and JULIE WATSON",
+      "title": "As Tropical Storm Hilary shrinks, desert and mountain towns dig themselves out of the mud",
+      "description": "CATHEDRAL CITY, Calif. (AP) — Crews worked to dig roads, buildings and care home residents out of the mud across a wide swath of Southwestern U.S. desert Monday, as the first tropical storm to hit Southern California in 84 years headed north, prompting flood watches and warnings in half a dozen states.",
+      "url": "https://apnews.com/9379b783d599f3a85433de6cffcc4d91",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/35f013e667d34c79b0a0485d5919c6d3/1920.jpeg",
+      "publishedAt": "2023-08-22T05:28:10Z"
+    }
+  ]
+}
