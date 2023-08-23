@@ -65,5 +65,10 @@
       }
     }
   },
-  "openWebsite": "Open website"
+  "openWebsite": "Open website",
+  "welcome": "Welcome",
+  "explore": "Explore",
+  "liveChat": "Live Chat",
+  "wishList": "Wish List",
+  "eMagazine": "E-Magazine"
 }

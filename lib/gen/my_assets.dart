@@ -12,6 +12,38 @@ class MyAssets {
   static const String ASSETS_ICONS_LANGUAGES_ICONS_ENGLISH_PNG =
       'assets/icons/languages_icons/english.png';
 
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/menu_icons/arrow.png)
+  static const String ASSETS_ICONS_MENU_ICONS_ARROW_PNG =
+      'assets/icons/menu_icons/arrow.png';
+
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/menu_icons/e-magazine.png)
+  static const String ASSETS_ICONS_MENU_ICONS_E_MAGAZINE_PNG =
+      'assets/icons/menu_icons/e-magazine.png';
+
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/menu_icons/explore.png)
+  static const String ASSETS_ICONS_MENU_ICONS_EXPLORE_PNG =
+      'assets/icons/menu_icons/explore.png';
+
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/menu_icons/gallery.png)
+  static const String ASSETS_ICONS_MENU_ICONS_GALLERY_PNG =
+      'assets/icons/menu_icons/gallery.png';
+
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/menu_icons/live.png)
+  static const String ASSETS_ICONS_MENU_ICONS_LIVE_PNG =
+      'assets/icons/menu_icons/live.png';
+
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/menu_icons/profile.png)
+  static const String ASSETS_ICONS_MENU_ICONS_PROFILE_PNG =
+      'assets/icons/menu_icons/profile.png';
+
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/menu_icons/selected.png)
+  static const String ASSETS_ICONS_MENU_ICONS_SELECTED_PNG =
+      'assets/icons/menu_icons/selected.png';
+
+  /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/menu_icons/wishlist.png)
+  static const String ASSETS_ICONS_MENU_ICONS_WISHLIST_PNG =
+      'assets/icons/menu_icons/wishlist.png';
+
   /// ![preview](file:///Users/bx777/development/Flutter/Projects/news_feeds_app/assets/icons/search.png)
   static const String ASSETS_ICONS_SEARCH_PNG = 'assets/icons/search.png';
 

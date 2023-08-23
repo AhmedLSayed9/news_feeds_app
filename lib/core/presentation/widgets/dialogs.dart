@@ -100,7 +100,7 @@ abstract class Dialogs {
       context: context,
       titlePadding: _defaultTitlePadding,
       title: title,
-      contentPadding: _defaultContentPadding,
+      contentPadding: contentPadding,
       content: content != null
           ? (context) => Column(
                 mainAxisSize: MainAxisSize.min,

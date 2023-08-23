@@ -65,4 +65,6 @@ abstract class TextStyles {
   static TextStyle dialogSuccess(BuildContext context) => f20(context).copyWith(
         color: Theme.of(context).colorScheme.primary,
       );
+
+  static TextStyle cupertinoDialogAction(BuildContext context) => f16SemiBold(context);
 }
