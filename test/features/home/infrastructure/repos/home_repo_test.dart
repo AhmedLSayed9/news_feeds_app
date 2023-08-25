@@ -11,7 +11,7 @@ import 'package:news_feeds_app/features/home/infrastructure/dtos/article_dto.dar
 import 'package:news_feeds_app/features/home/infrastructure/repos/home_repo.dart';
 
 import '../../../../fixtures/fixture_reader.dart';
-import '../../../../utils.dart';
+import '../../../../utils/utils.dart';
 
 class MockHomeRemoteDataSource extends Mock implements HomeRemoteDataSource {}
 

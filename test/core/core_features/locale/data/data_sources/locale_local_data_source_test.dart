@@ -5,7 +5,7 @@ import 'package:news_feeds_app/core/core_features/locale/infrastructure/data_sou
 import 'package:news_feeds_app/core/infrastructure/error/app_exception.dart';
 import 'package:news_feeds_app/core/infrastructure/local/shared_preferences_facade.dart';
 import 'package:news_feeds_app/core/presentation/utils/riverpod_framework.dart';
-import '../../../../../utils.dart';
+import '../../../../../utils/utils.dart';
 
 class MockSharedPreferencesFacade extends Mock implements SharedPreferencesFacade {}
 

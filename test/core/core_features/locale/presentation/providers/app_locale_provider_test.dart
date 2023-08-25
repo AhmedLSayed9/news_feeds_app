@@ -6,7 +6,7 @@ import 'package:news_feeds_app/core/core_features/locale/infrastructure/repos/lo
 import 'package:news_feeds_app/core/core_features/locale/presentation/providers/app_locale_provider.dart';
 import 'package:news_feeds_app/core/core_features/locale/presentation/utils/app_locale.dart';
 import 'package:news_feeds_app/core/presentation/utils/riverpod_framework.dart';
-import '../../../../../utils.dart';
+import '../../../../../utils/utils.dart';
 
 class MockLocaleRepo extends Mock implements LocaleRepo {}
 

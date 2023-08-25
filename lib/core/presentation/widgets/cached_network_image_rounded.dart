@@ -14,7 +14,7 @@ class CachedNetworkImageRounded extends ConsumerWidget {
     this.width = double.infinity,
     this.boxShadow,
     this.colorFilter,
-    this.spareImageUrl = '',
+    this.spareImageUrl = 'https://archive.org/download/placeholder-image/placeholder-image.jpg',
     this.maxHeightDiskCache = 600,
     this.maxWidthDiskCache = 600,
     super.key,

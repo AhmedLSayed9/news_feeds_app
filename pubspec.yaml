@@ -14,6 +14,7 @@ dependencies:
     sdk: flutter
   intl: ^0.18.1
   logging: ^1.2.0
+  meta: ^1.9.1
 
   # StateManagement & DI
   hooks_riverpod: ^2.3.6
@@ -36,7 +37,7 @@ dependencies:
   dio: ^5.1.2
 
   # LocalStorage
-  shared_preferences: ^2.1.1
+  shared_preferences: ^2.2.0
   flutter_cache_manager: ^3.3.0
 
   # Images
@@ -73,6 +74,13 @@ dev_dependencies:
   freezed: ^2.3.5
   json_serializable: ^6.7.0
   go_router_builder: ^2.3.0
+
+  # Tests Configuration
+  file: ^7.0.0
+  platform: ^3.1.0
+
+dependency_overrides:
+  file: ^7.0.0
 
 import_sorter:
   comments: false

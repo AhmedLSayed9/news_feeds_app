@@ -11,7 +11,7 @@ import 'package:news_feeds_app/features/home/infrastructure/data_sources/home_re
 import 'package:news_feeds_app/features/home/infrastructure/dtos/article_dto.dart';
 
 import '../../../../fixtures/fixture_reader.dart';
-import '../../../../utils.dart';
+import '../../../../utils/utils.dart';
 
 class MockMainApiFacade extends Mock implements MainApiFacade {}
 

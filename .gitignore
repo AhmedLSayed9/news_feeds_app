@@ -46,3 +46,6 @@ app.*.map.json
 # Ignoring generated files
 *.g.dart
 *.freezed.dart
+
+# don't check in golden failure output
+**/failures/*.png

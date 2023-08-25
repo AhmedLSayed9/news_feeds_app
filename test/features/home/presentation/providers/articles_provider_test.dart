@@ -9,7 +9,7 @@ import 'package:news_feeds_app/features/home/infrastructure/repos/home_repo.dart
 import 'package:news_feeds_app/features/home/presentation/providers/articles_provider.dart';
 
 import '../../../../fixtures/fixture_reader.dart';
-import '../../../../utils.dart';
+import '../../../../utils/utils.dart';
 
 class MockHomeRepo extends Mock implements HomeRepo {}
 

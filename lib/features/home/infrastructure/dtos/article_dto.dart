@@ -10,7 +10,7 @@ part 'article_dto.g.dart';
 @Freezed(toJson: false)
 class ArticleDto with _$ArticleDto {
   const factory ArticleDto({
-    required String author,
+    required String? author,
     required String title,
     required String description,
     required String url,
@@ -24,7 +24,7 @@ class ArticleDto with _$ArticleDto {
 
   Article toDomain() {
     return Article(
-      author: author,
+      author: author ?? '',
       title: title,
       description: description,
       url: url,

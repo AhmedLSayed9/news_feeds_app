@@ -36,6 +36,7 @@ class ArticlesList extends StatelessWidget {
                     child: ArticleItem(article: articles.items[index]),
                   )
                 : GestureDetector(
+                    key: ValueKey(articles.items[index].publishDate),
                     onTap: () {
                       ArticleDetailsRoute(index).go(context);
                     },

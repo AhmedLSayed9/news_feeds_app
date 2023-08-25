@@ -4,7 +4,7 @@ import 'package:mocktail/mocktail.dart';
 import 'package:news_feeds_app/core/core_features/theme/infrastructure/data_sources/theme_local_data_source.dart';
 import 'package:news_feeds_app/core/core_features/theme/infrastructure/repos/theme_repo.dart';
 import 'package:news_feeds_app/core/presentation/utils/riverpod_framework.dart';
-import '../../../../../utils.dart';
+import '../../../../../utils/utils.dart';
 
 class MockThemeLocalDataSource extends Mock implements ThemeLocalDataSource {}
 

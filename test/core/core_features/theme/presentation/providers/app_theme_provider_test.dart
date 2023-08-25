@@ -6,7 +6,7 @@ import 'package:news_feeds_app/core/core_features/theme/infrastructure/repos/the
 import 'package:news_feeds_app/core/core_features/theme/presentation/providers/app_theme_provider.dart';
 import 'package:news_feeds_app/core/core_features/theme/presentation/utils/app_theme.dart';
 import 'package:news_feeds_app/core/presentation/utils/riverpod_framework.dart';
-import '../../../../../utils.dart';
+import '../../../../../utils/utils.dart';
 
 class MockThemeRepo extends Mock implements ThemeRepo {}
 
